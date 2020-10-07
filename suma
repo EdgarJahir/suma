@@ -1,0 +1,25 @@
+package suma;
+import javax.swing.JOptionPane;
+
+/**
+*
+*@author Edgar
+*/
+public Class suma {
+
+public static void main(String[] args) {
+);
+String primerNumero = JOptionPane.showInputDialog("Introduzca el primer entero");
+string segundoNumero = JOptionPane.showInpDialog("Introduzca el segundo entero");
+
+int numero1 = Integer.parseInt(primerNumero);
+int numero2 = Integer.parseInt(segundoNumero);
+
+int suma = numero1 + numero 2;
+
+
+JOptionPane.showMessageDialog(null,"La suma es " + suma, "Suma de enteros",JOptionPane.PLANIN_MESSAGE);
+
+}
+
+}
